@@ -1,7 +1,5 @@
-const { Pool } = require('pg');
-
 require('dotenv').config();
-const { Pool } = require('pg');
+const { Pool } = require('pg'); // Chỉ giữ lại dòng này
 
 const pool = new Pool({
   host: process.env.DB_HOST,

@@ -1,9 +1,3 @@
--- Xóa bảng cũ để làm sạch (nếu cần)
-DROP TABLE IF EXISTS MeetingMinutes CASCADE;
-DROP TABLE IF EXISTS Attendees CASCADE;
-DROP TABLE IF EXISTS Meetings CASCADE;
-DROP TABLE IF EXISTS Users CASCADE;
-
 -- Tạo bảng Users
 CREATE TABLE Users (
     user_id SERIAL PRIMARY KEY,
